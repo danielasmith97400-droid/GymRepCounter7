@@ -25,7 +25,6 @@ jobs:
         with:
           api-level: 34
           build-tools: "34.0.0"
-          ndk: "21.4.7075529"
 
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
